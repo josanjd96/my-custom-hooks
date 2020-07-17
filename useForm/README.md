@@ -5,7 +5,7 @@ Ejemplo:
 ```
     const initialForm = { 
         name: '',
-        age:0,
+        age: 0,
         email: ''
     }
     const [ formValues, handleInputChange, reset ] = useForm( initialForm )
